@@ -8,7 +8,8 @@ Using this transpiler, you can transpile a .npy file to a .py file. This allows 
 - "else if"
 - "//" comments
 
-This will transpile a file that looks something like this (.npy)
+This will transpile a file that looks something like this (.npy):
+
     // Name: Nathan Gawith
     // Class: COMPSCI101 Problem Solving & Programing I FS2017
     // Assignment: Real Estate Agent Application (Assignment #2)
@@ -129,7 +130,8 @@ This will transpile a file that looks something like this (.npy)
             print('Please enter only \'yes\' to run again or \'no\' to exit.');
         }
     }
-Into a working python script like this
+Into a working python script like this (.py):
+
     # Name: Nathan Gawith
     # Class: COMPSCI101 Problem Solving & Programing I FS2017
     # Assignment: Real Estate Agent Application (Assignment #2)
