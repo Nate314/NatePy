@@ -1,4 +1,6 @@
 import sys;
+from os import system;
+import os;
 
 fileName = "";
 if len(sys.argv) == 2:
@@ -44,6 +46,8 @@ def main():
 	with open(finalfileName, "w+") as writer:
 		writer.write(finalfile + "\n");
 	print ("you can now run the compiled output using the command 'python " + finalfileName + "'");
+	system("python " + finalfileName);
+	os.remove(finalfileName);
 
 if __name__ == "__main__":
 	main();
