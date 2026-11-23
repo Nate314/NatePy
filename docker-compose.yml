@@ -1,0 +1,10 @@
+services:
+  natepy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # The example program reads input, so keep a TTY open for ./run.ps1 attach natepy.
+    stdin_open: true
+    tty: true
+    # Ends when the user answers 'no': no ports, no restart.
+    restart: "no"
